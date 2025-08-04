@@ -1,5 +1,6 @@
 @media screen and (max-width: 576px) {
-  .donate-container {
+  .donate-container,
+  .plan-container {
     flex-wrap: wrap;
   }
 
