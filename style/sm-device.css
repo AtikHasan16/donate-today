@@ -1,0 +1,29 @@
+@media screen and (max-width: 576px) {
+  .donate-container {
+    flex-wrap: wrap;
+  }
+
+  .banner-title {
+    font-size: 3rem;
+  }
+
+  /* header */
+
+  .header {
+    background-position: center;
+    margin-bottom: 50px;
+  }
+
+  /* Donate today */
+
+  .donate-today {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .donate-title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+}

@@ -4,6 +4,7 @@
   box-sizing: border-box;
   padding: 0;
   font-family: "poppins", sans-serif;
+  transition: 0.5s;
 }
 
 .main {
@@ -19,12 +20,19 @@
   color: white;
   font-size: 1.4rem;
   font-weight: 600;
+  transition: 0.5s;
+  border: 2px solid #ff5959;
+}
+.donate-btn:hover {
+  transition: 0.5s;
+  background-color: transparent;
+  color: #ff5959;
 }
 /* Banner section  */
 .header {
   background-repeat: no-repeat;
   background-position: center;
-  height: 950px;
+  height: 1000px;
   padding: 175px 0;
 
   background: linear-gradient(
@@ -53,10 +61,11 @@
 .banner-details {
   color: white;
   font-size: 1.2rem;
-  width: 650px;
+  width: 60%;
   margin: 0 auto;
   margin-bottom: 20px;
 }
+
 /* donate today section */
 
 .donate-today {
@@ -71,7 +80,7 @@
 }
 .donate-details {
   font-size: 1.2rem;
-  width: 650px;
+  width: 50%;
   margin: 0 auto;
   margin-bottom: 50px;
   color: #707070;
@@ -93,9 +102,11 @@
   color: #707070;
   font-weight: 700;
   background-color: #fafafa;
+  transition: 0.5s;
+  border: 2px solid #fafafa;
 }
 
-.donate-box-select {
+.donate-box:hover {
   border: 2px solid #ff5959;
   background-color: #ffeeee;
   color: #ff5959;
@@ -111,7 +122,6 @@
   width: 50%;
   margin-bottom: 20px;
   text-align: center;
-  color: #b3b3b3;
 }
 input:focus {
   outline: none;
