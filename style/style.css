@@ -6,6 +6,11 @@
   font-family: "poppins", sans-serif;
 }
 
+.main {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
 .donate-btn {
   border: none;
   padding: 20px 16px;
@@ -67,10 +72,54 @@
 .donate-details {
   font-size: 1.2rem;
   width: 650px;
+  margin: 0 auto;
   margin-bottom: 50px;
   color: #707070;
 }
 
+.donate-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  margin-bottom: 50px;
+}
+
+.donate-box {
+  font-size: 2rem;
+  padding: 45px 25px;
+  box-shadow: 1px 1px 10px #eeeeee;
+  border-radius: 5px;
+  color: #707070;
+  font-weight: 700;
+  background-color: #fafafa;
+}
+
+.donate-box-select {
+  border: 2px solid #ff5959;
+  background-color: #ffeeee;
+  color: #ff5959;
+}
+
+.donate-amount {
+  font-size: 1.2rem;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #dadada;
+  padding-bottom: 10px;
+  width: 50%;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #b3b3b3;
+}
+input:focus {
+  outline: none;
+}
+
+input::placeholder {
+  color: #b3b3b3;
+}
 
 /* donation plan section */
 /* contribution section */
