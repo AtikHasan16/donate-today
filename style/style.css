@@ -179,9 +179,38 @@ input::placeholder {
 .box-title {
   margin: 30px 0px 18px 0;
 }
-.box-details{
+.box-details {
   line-height: 25px;
 }
 /* contribution section */
+
+.contribution-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+  gap: 80px;
+}
+.contribute-texts {
+  text-align: left;
+  width: 60%;
+}
+.contribute-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #121212;
+  margin-bottom: 20px;
+}
+.contribute-details {
+  font-size: 1.2rem;
+  color: #707070;
+  line-height: 30px;
+  margin-bottom: 50px;
+}
+.contribute-img > img {
+  height: 450px;
+  width: 90%;
+  border-radius: 10px;
+}
 /* get updates section */
 /* footer section */

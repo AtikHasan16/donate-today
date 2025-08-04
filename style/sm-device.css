@@ -1,6 +1,7 @@
 @media screen and (max-width: 576px) {
   .donate-container,
-  .plan-container {
+  .plan-container,
+  .contribution-container {
     flex-wrap: wrap;
   }
 
@@ -26,5 +27,19 @@
     font-size: 3rem;
     font-weight: 700;
     margin-bottom: 20px;
+  }
+
+  /* contribution */
+
+  .contribution {
+    text-align: center;
+  }
+  .contribution-container {
+    margin-bottom: 50px;
+    gap: 50px;
+  }
+  .contribute-texts {
+    order: 1;
+    text-align: center;
   }
 }
