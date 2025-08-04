@@ -273,3 +273,17 @@ input::placeholder {
   color: white;
 }
 /* footer section */
+
+.footer {
+  height: 180px;
+  background-color: #0b0d17;
+  padding: 40px;
+  text-align: center;
+}
+
+.footer-title {
+  color: #ff5959;
+}
+.footer-details {
+  color: #d8d8d8;
+}
