@@ -1,5 +1,58 @@
 /* Common style area */
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.donate-btn {
+  border: none;
+  padding: 20px 16px;
+  background-color: #ff5959;
+  border-radius: 5px;
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
 /* Banner section  */
+.header {
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 945px;
+  padding: 175px 0;
+
+  background: linear-gradient(
+      rgba(18, 18, 18, 0),
+      rgba(7, 0, 0, 0.5),
+      rgb(0, 0, 0)
+    ),
+    url("../images/donation3.jpg");
+
+  background-size: cover;
+  margin-bottom: 130px;
+}
+
+.banner {
+  text-align: center;
+  align-content: center;
+}
+
+.banner-title {
+  color: white;
+  font-size: 4rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  font-family: "poppins", sans-serif;
+}
+.banner-details {
+  color: white;
+  font-size: 1.2rem;
+  width: 650px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  font-family: "poppins", sans-serif;
+}
 /* donate today section */
 /* donation plan section */
 /* contribution section */
